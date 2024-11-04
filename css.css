@@ -1,0 +1,50 @@
+.background-fade {
+    animation: fadeBackground 5s infinite;
+  }
+  
+  @keyframes fadeBackground {
+    0% {
+      background-color: #ff9999;
+    }
+    50% {
+      background-color: #99ccff;
+    }
+    100% {
+      background-color: #ff9999;
+    }
+  }
+
+  h1 {
+    text-shadow: 2px 2px red;
+  }
+  h1 {
+    text-shadow: 2px 2px 5px red;
+  }  
+  a {display: block; position: relative}
+.brown {position: absolute; bottom: 0; background-color: rgba(118,76,41,.8);}
+.green {position: absolute; bottom: 0; background-color: rgba(51,91,11,.8);}
+
+a {
+  color: #0000FF; /* Initial color */
+  transition: color 0.3s ease; /* Duration and easing function */
+}
+
+a:hover {
+  color: #FF0000; /* Color on hover */
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+#loading img
+{
+    -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         0.5s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-transition-timing-function: linear;
+    }
