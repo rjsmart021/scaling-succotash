@@ -1,6 +1,17 @@
 .background-fade {
     animation: fadeBackground 5s infinite;
   }
+div {
+   background-color: white;    
+
+   /* transition the background-color over 1s with a linear animation */
+   transition: background-color 1s linear;
+}
+
+/* the :hover that causes the background-color to change */
+div:hover {
+   background-color: transparent;      
+}
   
   @keyframes fadeBackground {
     0% {
