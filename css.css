@@ -34,6 +34,9 @@ div:hover {
   a {display: block; position: relative}
 .brown {position: absolute; bottom: 0; background-color: rgba(118,76,41,.8);}
 .green {position: absolute; bottom: 0; background-color: rgba(51,91,11,.8);}
+#p1 {background-color:rgba(255,0,0,0.3);} /* red with opacity*/
+#p2 {background-color:rgba(0,255,0,0.3);} /* green with opacity */
+#p3 {background-color:rgba(0,0,255,0.3);} /* blue with opacity */
 
 a {
   color: #0000FF; /* Initial color */
